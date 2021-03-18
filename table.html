@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        html {
+            font-family: 'Calibri', sans-serif;
+            font-size: 11pt;
+            width: 210mm;
+            height: 297mm;
+        }
+
+        .student_info {
+            margin-bottom: 2em;
+        }
+
+        .student_info th,
+        td {
+            text-align: left;
+        }
+
+        .student_info th {
+            padding-right: 2em;
+        }
+
+        .book_list {
+            border-collapse: collapse;
+        }
+
+        .book_list, .book_list th, .book_list td{
+            border: 1px black solid;
+        }
+
+        .book_list .vertical {
+            transform: rotate(-90deg);
+            width: 10%;
+        }
+
+        .book_list th {
+            height: 110px;
+        }
+
+        .book_list td {
+            text-align: center;
+            height: 24px;
+        }
+
+        .book_list .book_title {
+            text-align: left;
+            padding-left: 1em;
+        }
+
+        .signature {
+            width: 100%;
+            margin-top: 4em;
+        }
+
+        .signature_space {
+            border-top: .5mm black dotted;
+            text-align: center;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        figure img {
+            width: 210mm;
+        }
+
+        h1   {
+            page-break-after: avoid;
+        }
+        table, figure {
+            page-break-inside: avoid;
+        }
+
+    </style>
+</head>
+
+<body>
+    <figure><img src="./Obrázek1.png" alt=""></figure>
+    <header>
+        <h1>Vlastní seznam literárních děl pro školní rok 2020/2021</h1>
+    </header>
+    <table class="student_info">
+        <tr>
+            <th>Předmět:</th>
+            <td>český jazyk a literatura</td>
+        </tr>
+        <tr>
+            <th>Příjmení a jméno:</th>
+            <td>Kryštof Krátký</td>
+        </tr>
+        <tr>
+            <th>Třída:</th>
+            <td>L4</td>
+        </tr>
+        <tr>
+            <th>Termín:</th>
+            <td>MZ 2021 jaro</td>
+        </tr>
+    </table>
+    <table class="book_list">
+        <tr>
+            <th class="vertical">Číslo vlastního seznamu</th>
+            <th class="vertical">Číslo školního seznamu</th>
+            <th>Autor - titul</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>4</td>
+            <td class="book_title">I. Olbracht — Biblické příběhy</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>8</td>
+            <td class="book_title">W. Shakespeare — Hamlet</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>10</td>
+            <td class="book_title">Molière — Lakomec</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>15</td>
+            <td class="book_title">A. S. Puškin — Evžen Oněgin</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>24</td>
+            <td class="book_title">K. J. Erben — Kytice</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>25</td>
+            <td class="book_title">K. H. Borovský — Tyrolské elegie</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>28</td>
+            <td class="book_title">J. Neruda — Povídky malostranské</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>42</td>
+            <td class="book_title">E. M. Remarque — Tři kamarádi</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>43</td>
+            <td class="book_title">A. de Saint-Exupéry — Malý princ</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>44</td>
+            <td class="book_title">R. Rolland — Petr a Lucie</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>45</td>
+            <td class="book_title">J. Steinbeck — O myších a lidech</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>48</td>
+            <td class="book_title">G. Orwell — Farma zvířat</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>56</td>
+            <td class="book_title">K. Čapek — RUR</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>57</td>
+            <td class="book_title">K. Čapek — Válka s mloky</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>58</td>
+            <td class="book_title">K. Poláček — Bylo nás pět</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>61</td>
+            <td class="book_title">O. Pavel — Smrt krásných srnců</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>62</td>
+            <td class="book_title">L. Fuks — Spalovač mrtvol</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>64</td>
+            <td class="book_title">J. Otčenášek — Romeo, Julie a tma</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>65</td>
+            <td class="book_title">M. Kundera — Žert</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>68</td>
+            <td class="book_title">B. Hrabal — Ostře sledované vlaky</td>
+        </tr>
+    </table>
+    <table class="signature">
+        <tr>
+            <td>V Liberci dne 31. 03. 2021</td>
+            <td class="signature_space">Podpis studenta</td>
+        </tr>
+    </table>
+    <figure>
+        <img src="./Obrázek2.png" alt="">
+    </figure>
+</body>
+
+</html>
