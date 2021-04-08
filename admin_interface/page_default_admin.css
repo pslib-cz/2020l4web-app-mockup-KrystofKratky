@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    padding-left: 3rem;
+}
+
+main {
+    margin: 0 3rem;
+    width: 90%;
+}
+
+.top_panel {
+    background-color: #2F65B0;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_panel a {
+    text-decoration: none;
+    color: white;
+    margin: .75rem 1rem 0;
+}
+
+.top_panel a:first-child::before {
+    content: url(../mockup/back.svg);
+    margin-right: 1rem;
+}
+
+.top_panel a:last-child::after {
+    content: url(../mockup/edit.svg);
+    margin-left: 1rem;
+}
+
+.button {
+    background-color: #2F65B0;
+    color: white;
+    border-radius: .4rem;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+

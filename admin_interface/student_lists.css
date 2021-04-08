@@ -1,0 +1,35 @@
+.btn {
+    background-color: white;
+    color: #2F65B0;
+    border: #2F65B0 1px solid;
+    
+}
+
+#selection_buttons {
+    display: flex;
+    margin-left: 3rem;
+    gap: 10px;
+}
+
+#student_grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    text-align: center;
+    grid-gap: 3rem;
+}
+
+.item_box a {
+    text-decoration: none;
+}
+
+.item_box img {
+    width: 70%;
+    border-radius: 2rem;
+}
+
+
+.red {
+    background-color: #FF0000;
+}

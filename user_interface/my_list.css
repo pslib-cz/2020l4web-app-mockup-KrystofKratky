@@ -1,0 +1,84 @@
+#list_table, #list_table th, #list_table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#list_table {
+    margin-right: 4rem;
+    position: relative;
+}
+
+#list_table caption {
+    padding-bottom: 1rem;
+}
+
+#list_table th {
+    height: 80px;
+}
+
+#list_table td {
+    height: 30px;
+}
+
+#list_table td:first-child {
+    text-align: center;
+}
+
+#list_table td:nth-child(2) {
+    text-align: center;
+}
+
+#list_table td:last-child {
+    padding-left: 1.4rem;
+}
+
+#list_table td:last-child::after {
+    content: url(../mockup/bin.svg);
+    position: absolute;
+    right: 1rem;
+}
+
+#my_list_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+#my_list_box table {
+    flex-grow: 1;
+}
+
+#criteria_list {
+    position: relative;
+}
+
+#criteria_list h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#criteria_list ul {
+    padding: 0;
+}
+
+#criteria_list li {
+    list-style-type: none;
+    padding: .4rem 0;
+}
+
+
+#criteria_list li::after {
+    content: url(../mockup/posititve.svg);
+    position: absolute;
+    right: -1.6rem;
+}
+
+#button_box a {
+    text-decoration: none;
+}
+
+#button_box {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 2rem;
+}
+
