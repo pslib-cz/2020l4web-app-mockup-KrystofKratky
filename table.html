@@ -11,9 +11,13 @@
             font-family: 'Calibri', sans-serif;
             font-size: 11pt;
             width: 210mm;
-            height: 297mm;
         }
-
+      @media print {
+          @page {
+              size: auto;
+              margin: 1cm;
+          }
+      }
         .student_info {
             margin-bottom: 2em;
         }
