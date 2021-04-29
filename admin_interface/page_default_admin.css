@@ -29,11 +29,6 @@ main {
     margin-right: 1rem;
 }
 
-.top_panel a:last-child::after {
-    content: url(../mockup/edit.svg);
-    margin-left: 1rem;
-}
-
 .button {
     background-color: #2F65B0;
     color: white;

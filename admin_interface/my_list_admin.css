@@ -38,8 +38,6 @@
     align-content: center;
 }
 
-
-
 #my_list_box {
     display: flex;
     justify-content: space-around;
@@ -56,6 +54,7 @@
 #criteria_list h2 {
     text-align: center;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 #criteria_list ul {
@@ -72,6 +71,20 @@
     right: -2rem;
 }
 
+#edit_criteria {
+    display: flex;
+    position: relative;
+}
+
+#edit_criteria svg {
+    position: absolute;
+    bottom: .4rem;
+}
+
+#criteria_list input {
+    width: 2rem;
+}
+
 #button_box a {
     text-decoration: none;
 }
@@ -81,4 +94,3 @@
    justify-content: space-around;
    margin-top: 2rem;
 }
-

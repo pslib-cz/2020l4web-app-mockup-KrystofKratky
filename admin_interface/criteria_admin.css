@@ -1,0 +1,4 @@
+.top_panel a:last-child::after {
+  content: url(../mockup/edit.svg);
+  margin-left: 1rem;
+}

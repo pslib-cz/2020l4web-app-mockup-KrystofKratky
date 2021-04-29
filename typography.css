@@ -1,4 +1,4 @@
-h1, h2, p, li, a, td, th, caption, span {
+h1, h2, h3, p, li, a, td, th, caption, span, #genre_select, #period_select, #name_select, input[type=text], input[type=text]:focus, textarea {
     font-family: 'Lexend', sans-serif;
 }
 
@@ -11,6 +11,7 @@ h1 {
 h2 {
     font-size: 20pt;
 }
+
 
 p {
     font-size: 14pt;

@@ -1,14 +1,21 @@
-.btn {
-    background-color: white;
-    color: #2F65B0;
-    border: #2F65B0 1px solid;
-    
+#genre_select, #name_select, #period_select {
+    border: 2px solid #2F65B0;
+    border-radius: 4px;
+    padding: 0 .6rem 0 .6rem;
 }
 
 #selection_buttons {
     display: flex;
     margin-left: 3rem;
     gap: 10px;
+}
+
+#search {
+    display: flex;
+}
+
+#search p {
+    margin: .4rem .4rem;
 }
 
 #student_grid {

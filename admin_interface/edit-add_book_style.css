@@ -1,0 +1,27 @@
+h2 {
+    margin: .8rem 0 .3rem 0;
+    font-size: 12pt;
+}
+
+select:focus option:first-child {
+    display: none;
+}
+
+input {
+    width: 40%;
+}
+
+.dropdown_select_edit {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.button {
+    margin-bottom: 0;
+}
+
+.dropdown_select_edit a {
+    text-decoration: none;
+}

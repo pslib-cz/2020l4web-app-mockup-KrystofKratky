@@ -1,9 +1,26 @@
-.btn {
-    background-color: white;
-    color: #2F65B0;
-    border: #2F65B0 1px solid;
-    
+.top_panel a:last-child::after {
+    content: url(../mockup/add.svg);
+    margin-left: .6rem;
 }
+
+#genre_select, #name_select, #period_select {
+    border: 2px solid #2F65B0;
+    border-radius: 4px;
+    padding: 0 .6rem 0 .6rem;
+}
+
+#search {
+    display: flex;
+}
+
+#search p {
+    margin: .4rem .4rem;
+}
+
+#search input {
+    width: 20rem;
+}
+
 
 #selection_buttons {
     display: flex;
@@ -24,6 +41,21 @@
     text-decoration: none;
 }
 
-.red {
+.item_box svg {
+    margin: 2rem;
+}
+
+.item_icons {
+    position: relative;
+}
+
+.item_icons svg:last-child {
+    position: absolute;
+    left: -2rem;
+    top: 0;
     background-color: #FF0000;
+    padding: 10px;
+    border-radius: .8rem;
+    fill: white;
+    z-index: 1;
 }
